@@ -82,6 +82,7 @@ body {
     height: 3vh;
     text-align: center;
     color: white;
+    font-size: 1.25rem;
 }
 .inline {
     display: flex;
@@ -104,18 +105,18 @@ body {
     padding-top: 10%;
     padding-left: 7vw;
     padding-right: 15vw;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .intro h1 {
     margin-top: 0;
     padding-left: 7vw;
-    font-size: 100px;
+    font-size: 7rem;
 }
 .intro h2 {
     margin-top: 0;
     padding-left: 7vw;
-    font-size: 50px;
+    font-size: 3rem;
 }
 h2 span {
     color: #9b59b6;
@@ -126,4 +127,17 @@ h2 span {
     height: 500px;
     border-bottom: 2vh solid #c85cff;
     ;
+}
+
+.lighthouse {
+    color:#2196F3;
+}
+.sah {
+    color: #424242;
+}
+.notes {
+    color:#7C4DFF;
+}
+.ship {
+    color: #FF4081;
 }
