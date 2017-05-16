@@ -6,14 +6,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-    <div class="head">Maybe hamburger?</div>
-    <div class="intro">Hi! My name is
-        <h1>Alex Gurung</h1>
-    </div>
     <div class="content">
+        <div class="head">
+            <div class="navbar">
+
+            </div>
+        </div>
+        <div class="intro">
+            <div class="inline">
+                <p>Hi! My name is</p>
+                <div class="nav" id="spacer"></div>
+                <div class="nav"><a href="">About</a></div>
+                <div class="nav"><a href="">Projects</a></div>
+                <div class="nav"><a href="">Content</a></div>
+            </div>
+            <h1>Alex Gurung</h1>
+            <h2>Explore to learn about: <span id="typer"></span></h2>
+        </div>
+        
         <div id="intro">Some stuff about me</div>
         <div class="projects">
             <div class="split">
@@ -38,6 +52,18 @@
             </div>
         </div>
     </div>
+    <script src="js/typed.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Typed.new("#typer", {
+                strings: ["Me! ", "<span style='color:#2196F3;'>Lighthouse</span> ", "Ship Creator ", "News Scraper "],
+                typeSpeed: 1.5,
+                backSpeed: 1,
+                loop: true,
+                backDelay: 800
+            });
+        });
+    </script>
 </body>
 
 </html>
