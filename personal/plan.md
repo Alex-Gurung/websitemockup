@@ -2,8 +2,9 @@
 
 * Header -- Links to: 
     * About me
-    * Projects
-    * Github?
+    * Projects (To Generic Projects Section)
+    * Github
+    * Linkedin
 * Title
     * Simplistic typeface, my name is _Alex Gurung_
 * About me
