@@ -5,6 +5,7 @@
     <title>Personal Website</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/aos.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
@@ -27,8 +28,22 @@
             <h1>Alex Gurung</h1>
             <h2>Explore to learn about: <span id="typer"></span></h2>
         </div>
-        
-        <div id="intro">Some stuff about me</div>
+        <!--<div class="item" data-aos="fade-up">1</div>-->
+        <div class="about">
+            <h1>About Me!</h1>
+            <div class="cards">
+                <div class="card" data-aos="fade-down-right"
+     data-aos-anchor-placement="center-bottom">Hi! My name is Alex Gurung, I'm a <br><br>to program! I generally work in </div>
+                <div class="card" data-aos="fade-down-left"    
+     data-aos-anchor-placement="center-bottom">rising senior at TJHSST and I love<br><br>Python, Java, and HTML/CSS/JS</div>
+            </div>
+            <div class="cards">
+                <div class="card" data-aos="fade-up-right"
+     data-aos-anchor-placement="center-bottom">or whatever else i  <br><br>Here are a</div>
+                <div class="card" data-aos="fade-up-left"    
+     data-aos-anchor-placement="center-bottom">need for a project. <br><br> few examples!</div>
+            </div>
+        </div>
         <div class="projects">
             <div class="split">
                 <div class="image">Image here</div>
@@ -53,16 +68,22 @@
         </div>
     </div>
     <script src="js/typed.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             Typed.new("#typer", {
-                strings: ["Me! ", "<span class='lighthouse'>Lighthouse</span> ", "<span class='sah'>S. A. H.</span> ", "<span class='notes'>Notes With Markov</span> ","<span class='ship'>Ship Creator</span> ", "News Scraper "],
+                strings: ["Me! ", "<span class='lighthouse'>Lighthouse</span> ",
+                    "<span class='sah'>S. A. H.</span> ",
+                    "<span class='notes'>Notes With Markov</span> ",
+                    "<span class='ship'>Ship Creator</span> ", "News Scraper "
+                ],
                 typeSpeed: 1.5,
                 backSpeed: 0.75,
                 loop: true,
                 backDelay: 800
             });
         });
+        AOS.init()
     </script>
 </body>
 

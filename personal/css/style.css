@@ -26,6 +26,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .content {
@@ -38,8 +39,8 @@ body {
 }
 
 .head {
-    background-color: #b07cc6;
-    height: 5vh;
+    background-color: #F48FB1;
+    height: 3.5vh;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -121,12 +122,62 @@ body {
 h2 span {
     color: #9b59b6;
 }
+.about {
+    height: 400px;
+    background-color: #9b59b6;
+}
+.about h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.about .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;
+    padding: 20px;
+    padding-top: 10px;
+}
+.about h1 {
+    font-size: 3rem;
+}
+.cards .card {
+    background-color: #64B5F6;
+    width: 60%;
+    /*padding: 10px;*/
+    /*margin: 20px;*/
+    position: relative;
+    /*margin-left: 0;
+    margin-right: 0;*/
+    margin: 0;
+    /*margin-top: 05px;*/
+    border-radius: 10px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.about .cards {
+    padding-top: 0;
+    padding-bottom: 1px;
+}
 
 .projects .split {
     background-color: #27ae60;
     height: 500px;
     border-bottom: 2vh solid #c85cff;
-    ;
+    display: flex;
+    flex-direction: row;
+}
+.split .image {
+    flex: 1;
+    align-content: center;
+}
+.split .desc {
+    flex: 1;
+    text-align: center;
 }
 
 .lighthouse {
