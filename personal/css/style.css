@@ -27,6 +27,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    /*overflow-x: hidden;*/
 }
 
 .content {
@@ -96,7 +97,7 @@ body {
 .intro {
     padding: 0;
     margin: 0;
-    height: 80vh;
+    height: 600px;
     background-color: #e6e9ea;
     font-family: 'Raleway', sans-serif;
 }
@@ -117,14 +118,16 @@ body {
 .intro h2 {
     margin-top: 0;
     padding-left: 7vw;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+    padding-bottom: 20px;
 }
 h2 span {
     color: #9b59b6;
 }
 .about {
     height: 400px;
-    background-color: #9b59b6;
+    background-color: #BA68C8;
 }
 .about h1 {
     margin: 0;
@@ -141,6 +144,9 @@ h2 span {
 }
 .about h1 {
     font-size: 3rem;
+}
+.about p {
+    text-align: center;
 }
 .cards .card {
     background-color: #64B5F6;
@@ -164,6 +170,32 @@ h2 span {
     padding-bottom: 1px;
 }
 
+.projects .header {
+    height: 200px;
+    padding-bottom: 10vh;
+    background-color: #FF80AB;
+}
+.header h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.header p {
+    text-align: center;
+}
+.header p a{
+    text-decoration: none;
+    color: #304FFE;
+    font-weight: bold;
+    -webkit-transition: color 0.4s;
+    -moz-transition:    color 0.4s;
+    -ms-transition:     color 0.4s;
+    -o-transition:      color 0.4s;
+    transition:         color 0.4s;
+}
+.header p a:hover{
+    color: #00E676;
+}
 .projects .split {
     background-color: #27ae60;
     height: 500px;
@@ -179,6 +211,17 @@ h2 span {
     flex: 1;
     text-align: center;
 }
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+.github-inline {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    width: 20%;
+    height: 20%;
+}
+
 
 .lighthouse {
     color:#2196F3;
