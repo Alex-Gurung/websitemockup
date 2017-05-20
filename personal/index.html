@@ -25,7 +25,12 @@
                 <div class="nav"><a href="">Projects</a></div>
                 <div class="nav"><a href="">Content</a></div>
             </div>
-            <div class="inline"><h1>Alex Gurung</h1><img data-aos="fade-left" data-aos-delay="300" class="github-inline" src="img/Github-Mark.png" alt=""></div>
+            <div class="inline">
+                <h1>Alex Gurung</h1>
+                <img data-aos="fade-left" data-aos-delay="300" id="git-image" class="github-inline" src="img/Github-Mark.png"
+                    alt="">
+                    
+                    </div>
             <h2>Explore to learn about: <span id="typer"></span></h2>
         </div>
         <!--<div class="item" data-aos="fade-up">1</div>-->
@@ -34,7 +39,8 @@
             <div class="cards">
                 <!--Hi! My name is Alex Gurung, I'm a rising senior at TJHSST and I love to program! I generally work in Python, Java, and HTML/CSS/JS or whatever else I need for a project. Here are a few examples! -->
                 <!--<div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Hi! My name is Alex Gurung, I'm a rising senior at TJHSST and I love to program! I generally work in Python, Java, and HTML/CSS/JS or whatever else I need for a project. Here are a few examples!</div>-->
-                <p>Hi! My name is Alex Gurung, I'm a rising senior at TJHSST and I love to program! I generally work in Python, Java, and HTML/CSS/JS or whatever else I need for a project. Here are a few examples!</p>
+                <p>Hi! My name is Alex Gurung, I'm a rising senior at TJHSST and I love to program! I generally work in Python,
+                    Java, and HTML/CSS/JS or whatever else I need for a project. Here are a few examples!</p>
                 <!--<div class="card" data-aos="fade-down-right"
      data-aos-anchor-placement="center-bottom">Hi! My name is Alex Gurung, I'm a <br><br>to program! I generally work in </div>
                 <div class="card" data-aos="fade-down-left"    
@@ -50,7 +56,7 @@
         <div class="projects">
             <div class="header">
                 <h1>My Projects</h1>
-                <p>Here are some of my recent projects, check out my <a href="https://www.github.com/alex-gurung" target="_blank">Github</a> to see more!</p>    
+                <p>Here are some of my recent projects, check out my <a href="https://www.github.com/alex-gurung" target="_blank">Github</a>                    to see more!</p>
             </div>
             <div class="split">
                 <div class="image"><img src="img/lighthouse.png" alt=""></div>
@@ -99,6 +105,15 @@
             speed: 800,
             easing: 'easeInOutCubic'
         });
+        document.getElementById("git-image").onclick = function () {
+            var win = window.open('https://github.com/alex-gurung', '_blank');
+            if (win) {
+                //Browser has allowed it to be opened
+                win.focus();
+            } else {
+                //Browser has blocked it
+            }
+        }
     </script>
 </body>
 
