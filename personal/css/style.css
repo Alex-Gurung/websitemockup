@@ -121,9 +121,9 @@ a {
 }
 .intro .title {
     box-shadow: inset 0 0 0 0 #212121;
-    -webkit-transition: all ease 2s;
-	-moz-transition: all ease 2s;
-	transition: all ease 2s;
+    -webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	transition: all ease 1s;
 }
 .intro .title:hover {
     box-shadow: inset 0 17rem 0 0 #212121;
@@ -229,21 +229,58 @@ h2 span {
     display: flex;
     flex-direction: row;
 }
-.github-inline {
+.git-image {
     padding-left: 10vw;
     padding-right: 10vw;
-    width: 20%;
-    height: 20%;
+    width: 20vw;
+    height: 20vw;
     /*-webkit-transition: all ease 0.8s;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
     opacity: 0.5;*/
+    /*box-shadow: inset 0 0 0 0 #212121;*/
+    /*-webkit-transition: all ease 2s;
+	-moz-transition: all ease 2s;
+	transition: all ease 2s;*/
+}
+/*.github-inline::before {
+    content: url("../img/Github-Mark.png");
+    -webkit-transition: opacity 1.5s ease;
+    -moz-transition: opacity ease 1.5s;
+    transition: opacity 1.5s ease;
+}
+.github-inline::after {
+    /*content:url("../img/Github-Invert.png");*/
+/*}*/
+/*.github-inline:hover::after{
+    opacity:1;
+}
+.github-inline:hover::before{
+    opacity:0;
+}*/
+.git-image img {
+    position:absolute;
+    width:20vw;
+    -webkit-transition: opacity 0.5s easeOutBack;
+  -moz-transition: opacity 0.5s easeOutBack;
+  -o-transition: opacity 0.5s easeOutBack;
+  transition: opacity 0.5s easeOutBack;
+    /*left:0;*/
+}
+.git-image img.top:hover {
+  opacity:0;
+}
+.github-inline {
+    /*position: absolute;*/
+    width: 100%;
 }
 .github-inline:hover {
     /*opacity: 1;*/
-    cursor:pointer;
+    cursor:pointer; 
     cursor:hand;
-    content:url("../img/Github-Invert.png");
+    opacity: 0;
+    /*box-shadow: inset 0 17rem 0 0 #212121;*/
+    /*content:url("../img/Github-Invert.png");*/
 }
 
 
