@@ -118,13 +118,15 @@ a {
     margin-top: 0;
     padding-left: 7vw;
     font-size: 7rem;
-    box-shadow: inset 0 0 0 0 #212121;
-    -webkit-transition: all ease-in-out 0.8s;
-	-moz-transition: all ease-in-out 0.8s;
-	transition: all ease-in-out 0.8s;
 }
-.intro h1:hover {
-    box-shadow: inset 0 100rem 0 0 #212121;
+.intro .title {
+    box-shadow: inset 0 0 0 0 #212121;
+    -webkit-transition: all ease 2s;
+	-moz-transition: all ease 2s;
+	transition: all ease 2s;
+}
+.intro .title:hover {
+    box-shadow: inset 0 17rem 0 0 #212121;
     color: #FFF;
 }
 .intro h2 {
@@ -232,10 +234,16 @@ h2 span {
     padding-right: 10vw;
     width: 20%;
     height: 20%;
+    /*-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+    opacity: 0.5;*/
 }
 .github-inline:hover {
+    /*opacity: 1;*/
     cursor:pointer;
     cursor:hand;
+    content:url("../img/Github-Invert.png");
 }
 
 
