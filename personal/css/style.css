@@ -197,16 +197,19 @@ h2 span {
 .header p {
     text-align: center;
 }
-.header p a{
+a {
     text-decoration: none;
-    color: #304FFE;
-    font-weight: bold;
     -webkit-transition: color 0.4s;
     -moz-transition:    color 0.4s;
     -ms-transition:     color 0.4s;
     -o-transition:      color 0.4s;
     transition:         color 0.4s;
 }
+.header p a{
+    color: #304FFE;
+    font-weight: bold;
+}
+
 .header p a:hover{
     color: #00E676;
 }
@@ -224,6 +227,7 @@ h2 span {
 .split .desc {
     flex: 1;
     text-align: center;
+    margin-right: 10px;
 }
 .inline {
     display: flex;
@@ -283,12 +287,22 @@ h2 span {
     /*content:url("../img/Github-Invert.png");*/
 }
 
-
+.desc p a {
+    color: #1A237E;
+    font-weight: bold;
+}
 .lighthouse {
     color:#2196F3;
 }
+
+a.lighthouse:hover {
+    color: orange;
+}
 .sah {
     color: #424242;
+}
+a.sah:hover {
+    color:#3E2723;
 }
 .notes {
     color:#7C4DFF;
