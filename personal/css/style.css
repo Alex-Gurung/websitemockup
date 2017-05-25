@@ -1,24 +1,46 @@
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 html,
 body {
     width: 100%;
@@ -46,6 +68,7 @@ body {
     padding-bottom: 0;
 }
 
+
 /*.head .navbar {
     display: -webkit-flex;
     display: flex;
@@ -55,20 +78,37 @@ body {
     justify-content: flex-end;
 }*/
 
+
 /*.head .navbar .nav {
     width: 10vw;
     height: 5vh;*/
-    /*padding-top: 5px;*/
-    /*padding-bottom: 5px;*/
-    /*justify-content: center;*/
-    /*border-radius: 10px;*/
-    /*text-align: center;
+
+
+/*padding-top: 5px;*/
+
+
+/*padding-bottom: 5px;*/
+
+
+/*justify-content: center;*/
+
+
+/*border-radius: 10px;*/
+
+
+/*text-align: center;
     margin-top: auto;*/
-    /*background-color: #9b59b6;*/
+
+
+/*background-color: #9b59b6;*/
+
+
 /*}*/
+
 a {
     text-decoration: none;
 }
+
 .nav {
     font-size: 1em;
     display: flex;
@@ -76,7 +116,8 @@ a {
     align-items: center;
     padding-top: 7%;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     border-radius: 10px;
     background-color: #81D4FA;
@@ -88,6 +129,7 @@ a {
     color: white;
     font-size: 1.25rem;
 }
+
 .inline {
     display: flex;
     flex-direction: row;
@@ -96,6 +138,7 @@ a {
 .inline .nav {
     flex-grow: 1;
 }
+
 .intro {
     padding: 0;
     margin: 0;
@@ -107,7 +150,7 @@ a {
 
 .intro p {
     margin-top: 0;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 7vw;
     padding-right: 15vw;
     font-size: 2rem;
@@ -119,16 +162,19 @@ a {
     padding-left: 7vw;
     font-size: 7rem;
 }
+
 .intro .title {
     box-shadow: inset 0 0 0 0 #212121;
     -webkit-transition: all ease 1s;
-	-moz-transition: all ease 1s;
-	transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    transition: all ease 1s;
 }
+
 .intro .title:hover {
     box-shadow: inset 0 17rem 0 0 #212121;
     color: #FFF;
 }
+
 .intro h2 {
     margin-top: 0;
     padding-left: 7vw;
@@ -136,18 +182,22 @@ a {
     margin-bottom: 2vh;
     padding-bottom: 20px;
 }
+
 h2 span {
     color: #9b59b6;
 }
+
 .about {
     height: 400px;
     background-color: #BA68C8;
 }
+
 .about h1 {
     margin: 0;
     padding-top: 15px;
     padding-left: 10px;
 }
+
 .about .cards {
     display: flex;
     flex-direction: row;
@@ -156,12 +206,15 @@ h2 span {
     padding: 20px;
     padding-top: 10px;
 }
+
 .about h1 {
     font-size: 3rem;
 }
+
 .about p {
     text-align: center;
 }
+
 .cards .card {
     background-color: #64B5F6;
     width: 100%;
@@ -174,11 +227,12 @@ h2 span {
     /*margin-top: 05px;*/
     border-radius: 10px;
     display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
 }
+
 .about .cards {
     padding-top: 0;
     padding-bottom: 1px;
@@ -189,30 +243,35 @@ h2 span {
     padding-bottom: 10vh;
     background-color: #FF80AB;
 }
+
 .header h1 {
     margin: 0;
     padding-top: 15px;
     padding-left: 10px;
 }
+
 .header p {
     text-align: center;
 }
+
 a {
     text-decoration: none;
     -webkit-transition: color 0.4s;
-    -moz-transition:    color 0.4s;
-    -ms-transition:     color 0.4s;
-    -o-transition:      color 0.4s;
-    transition:         color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
 }
-.header p a{
+
+.header p a {
     color: #304FFE;
     font-weight: bold;
 }
 
-.header p a:hover{
+.header p a:hover {
     color: #00E676;
 }
+
 .projects .split {
     background-color: #27ae60;
     height: 500px;
@@ -220,19 +279,23 @@ a {
     display: flex;
     flex-direction: row;
 }
+
 .split .image {
     flex: 1;
     align-content: center;
 }
+
 .split .desc {
     flex: 1;
     text-align: center;
     margin-right: 10px;
 }
+
 .inline {
     display: flex;
     flex-direction: row;
 }
+
 .git-image {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -247,6 +310,8 @@ a {
 	-moz-transition: all ease 2s;
 	transition: all ease 2s;*/
 }
+
+
 /*.github-inline::before {
     content: url("../img/Github-Mark.png");
     -webkit-transition: opacity 1.5s ease;
@@ -255,33 +320,41 @@ a {
 }
 .github-inline::after {
     /*content:url("../img/Github-Invert.png");*/
+
+
 /*}*/
+
+
 /*.github-inline:hover::after{
     opacity:1;
 }
 .github-inline:hover::before{
     opacity:0;
 }*/
+
 .git-image img {
-    position:absolute;
-    width:20vw;
+    position: absolute;
+    width: 20vw;
     -webkit-transition: opacity 0.5s easeOutBack;
-  -moz-transition: opacity 0.5s easeOutBack;
-  -o-transition: opacity 0.5s easeOutBack;
-  transition: opacity 0.5s easeOutBack;
+    -moz-transition: opacity 0.5s easeOutBack;
+    -o-transition: opacity 0.5s easeOutBack;
+    transition: opacity 0.5s easeOutBack;
     /*left:0;*/
 }
+
 .git-image img.top:hover {
-  opacity:0;
+    opacity: 0;
 }
+
 .github-inline {
     /*position: absolute;*/
     width: 100%;
 }
+
 .github-inline:hover {
     /*opacity: 1;*/
-    cursor:pointer; 
-    cursor:hand;
+    cursor: pointer;
+    cursor: hand;
     opacity: 0;
     /*box-shadow: inset 0 17rem 0 0 #212121;*/
     /*content:url("../img/Github-Invert.png");*/
@@ -291,22 +364,73 @@ a {
     color: #1A237E;
     font-weight: bold;
 }
+
 .lighthouse {
-    color:#2196F3;
+    color: #2196F3;
 }
 
 a.lighthouse:hover {
     color: orange;
 }
+
 .sah {
     color: #424242;
 }
+
 a.sah:hover {
-    color:#3E2723;
+    color: #3E2723;
 }
+
 .notes {
-    color:#7C4DFF;
+    color: #7C4DFF;
 }
+
 .ship {
     color: #FF4081;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .intro {
+        padding-bottom: 5px;
+        height: 400px;
+    }
+    .intro p {
+        margin-top: 0;
+        padding-top: 10%;
+        padding-left: 5vw;
+        padding-right: 8vw;
+        font-size: 1.1rem;
+    }
+    .intro h1 {
+        padding-left: 7vw;
+        font-size: 5rem;
+        margin-bottom: 5px;
+    }
+    .intro h2 {
+    font-size: 1.5rem;
+}
+.nav#spacer {
+    width: 0;
+}
+.git-image {
+    position: absolute;
+    padding-left: 75vw;
+}
+.nav a {
+    background-color: #81D4FA;
+    padding: 15px;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    /*margin:auto;*/
+    width: 10vw;
+    height: 3vh;
+    text-align: center;
+    color: white;
+    font-size: 0.85rem;
+}
 }
