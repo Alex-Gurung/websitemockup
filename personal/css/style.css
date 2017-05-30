@@ -360,6 +360,12 @@ a.sah:hover {
 .ship {
     color: #FF4081;
 }
+a.ship:hover {
+    color: #FF4081;
+}
+a.codet:hover {
+    color: #00E676;
+}
 
 @media only screen and (max-device-width: 480px) {
     .content {
