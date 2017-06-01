@@ -188,7 +188,7 @@ h2 span {
 }
 
 .about {
-    height: 400px;
+    height: 50vh;
     background-color: #BA68C8;
 }
 
@@ -198,21 +198,25 @@ h2 span {
     padding-left: 10px;
 }
 
-.about .cards {
+/*.about .cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 80%;
     padding: 20px;
     padding-top: 10px;
-}
+}*/
 
 .about h1 {
     font-size: 3rem;
 }
 
 .about p {
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
+    height: 80%;
+
 }
 
 .cards .card {
@@ -388,7 +392,6 @@ a.ship:hover {
 a.codet:hover {
     color: #00E676;
 }
-
 @media only screen and (max-device-width: 480px) {
     .content {
         width: 100%;
