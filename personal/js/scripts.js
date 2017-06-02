@@ -26,3 +26,13 @@ $(".github-inline").click(function () {
         //Browser has blocked it
     }
 });
+var bar = new ProgressBar.Line('#bar', {
+  strokeWidth: 1.0,
+  easing: 'easeInOut',
+  duration: 1000,
+  color: '#FFD54F',
+  trailColor: '#e6e9ea',
+  trailWidth: 1.0,
+  svgStyle: {width: '100%', height: '100%'}
+});
+bar.animate(2.0);
