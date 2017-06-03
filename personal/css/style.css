@@ -188,7 +188,8 @@ h2 span {
 }
 
 .about {
-    height: 50vh;
+    /*height: 50vh;*/
+    height: 600px;
     background-color: #BA68C8;
 }
 
@@ -325,6 +326,7 @@ a {
 .github-inline {
     /*position: absolute;*/
     width: 100%;
+    
 }
 
 .github-inline:hover {
