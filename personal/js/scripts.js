@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         strings: ["Me! ", "<span class='lighthouse'>Lighthouse</span> ",
             "<span class='sah'>S. A. H.</span> ",
             "<span class='notes'>Notes With Markov</span> ",
-            "<span class='ship'>Ship Creator</span> ", "News Scraper "
+            "<span class='ship'>Ship Creator</span> ", "Project Codet "
         ],
         typeSpeed: 1.5,
         backSpeed: 0.75,
