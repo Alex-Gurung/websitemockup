@@ -35,7 +35,7 @@ var bar = new ProgressBar.Line('#bar', {
   trailWidth: 1.0,
   svgStyle: {width: '100%', height: '100%'}
 });
-// bar.animate(2.0);
+bar.animate(2.0);
 // bar.animate(2.0);
 function animate_bar () {
     bar.set(0);
@@ -49,9 +49,4 @@ function animate_bar () {
      }
     );
 }
-animate_bar();
-// $( function() {
-//     console.log('hi')
-//     setInterval(animate_bar, 1000);
-//     console.log('bye')
-// })
+// animate_bar();
