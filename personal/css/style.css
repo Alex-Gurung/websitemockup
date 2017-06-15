@@ -143,7 +143,7 @@ a {
     padding: 0;
     margin: 0;
     padding-bottom: 5px;
-    height: 85vh;
+    height: 84vh;
     background-color: #e6e9ea;
     font-family: 'Raleway', sans-serif;
 }
@@ -189,7 +189,7 @@ h2 span {
 
 .about {
     /*height: 50vh;*/
-    height: 88.5vh;
+    height: 87vh;
     background-color: #BA68C8;
 }
 
@@ -291,6 +291,12 @@ a {
     align-content: center;
 }
 
+.image .image-logo {
+    position: absolute;
+    display: block;
+    margin: 0;
+    margin-left: 5vw;
+}
 .split .desc {
     flex: 1;
     text-align: center;
@@ -346,7 +352,7 @@ a {
 
 .progress {
     width: 20vw;
-    height: 15vh;
+    height: 10vh;
     text-align: center;
 }
 .progress .title {
