@@ -296,6 +296,10 @@ a {
     display: block;
     margin: 0;
     margin-left: 5vw;
+    
+}
+.image-logo img {
+    max-width: 100%;
 }
 .split .desc {
     flex: 1;
