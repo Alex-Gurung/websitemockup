@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
     Typed.new("#typer", {
         strings: ["Me! ", "<span class='lighthouse'>Lighthouse</span> ",
             "<span class='sah'>S. A. H.</span> ",
-            "<span class='notes'>Notes With Markov</span> ",
-            "<span class='ship'>Ship Creator</span> ", "Project Codet "
+            "<span class='notes'>W. W. F.</span> ",
+            "<span class='ship'>Ship Creator</span> ", "Project Codet ", " etc! "
         ],
-        typeSpeed: 1.5,
+        typeSpeed: 2.5,
         backSpeed: 0.75,
         loop: true,
         backDelay: 800
